@@ -1,0 +1,7 @@
+profile: ${spring.profiles.active}
+
+spring:
+  main:
+    lazy-initialization: true
+  jackson:
+    default-property-inclusion: non_null
